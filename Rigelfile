@@ -17,9 +17,8 @@ providers:
         provider: "rigel.providers.core.ContainerRegistryProvider"
         with:
             server: "https://ghcr.io/v2/"
-            username: "misterowlpt"
+            username: "robotair"
             password: "{{ vars.REGISTRY_PASSWORD }}"
-
 
 jobs:
 
