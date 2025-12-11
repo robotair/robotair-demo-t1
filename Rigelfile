@@ -17,8 +17,8 @@ providers:
         provider: "rigel.providers.core.ContainerRegistryProvider"
         with:
             server: "https://ghcr.io/v2/"
-            username: "t1"
-            password: "{{ vars.REGISTRY_PASSWORD }}"
+            username: "robotair"
+            password: "{{ vars.GITHUB_TOKEN }}"
 
 jobs:
 
